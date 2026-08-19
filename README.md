@@ -12,7 +12,7 @@ git
     git clone https://github.com/colbyrobbins/weather-report-app.git
 2. Create and activate venv  
     python -m venv .venv  
-    .venv\Scripts\Activate.ps1
+    .venv\Scripts\activate.ps1
 3. Install dependencies  
     pip install requests, python-dotenv, streamlit  
 4. Configure environment variables  
