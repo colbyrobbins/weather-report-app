@@ -28,6 +28,6 @@ def get_weather(city):
 if __name__ == "__main__":
     while True:
         city = input("Enter the city name or 'q' to exit: ")
-        if city == "q":
+        if city == "quit":
             break
         get_weather(city)

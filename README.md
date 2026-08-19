@@ -1,5 +1,5 @@
 # Weather Report App
-A Python CLI application that fetches real-time weather information for any city using the OpenWeatherMap API.
+Python CLI application that fetches real-time weather information for any city using the OpenWeatherMap API.
 
 ## Getting Started
 
