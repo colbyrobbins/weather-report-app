@@ -14,10 +14,10 @@ git
     python -m venv .venv  
     .venv\Scripts\Activate.ps1
 3. Install dependencies  
-    pip install requests, python-dotenv  
+    pip install requests, python-dotenv, streamlit  
 4. Configure environment variables  
     code .env  
     OPENWEATHER_API_KEY=your_api_key
 
 ### Usage
-python main.py
+streamlit run app.py
