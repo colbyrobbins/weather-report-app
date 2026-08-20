@@ -8,18 +8,23 @@ Python 3.10.0
 git
 
 ### Installation
-1. Clone repository  
+1. Clone and enter repository  
     git clone https://github.com/colbyrobbins/weather-report-app.git
+    cd weather-report-app
 2. Create and activate venv  
     python -m venv .venv  
     .venv\Scripts\activate.ps1
 3. Install dependencies  
-    pip install requests, python-dotenv, streamlit  
-4. Configure environment variables  
-    code .env  
-    OPENWEATHER_API_KEY=your_api_key
+    pip install -r requirements.txt 
+4. Start Application
+    streamlit run streamlit_app.py  
+    Then open your browser at http://localhost:8501
+
+    OR  
+
+    https://weather-report-app-jihh68tgnxxbfhfrmh5q9z.streamlit.app/
+
 
 ### Usage
-https://weather-report-app-jihh68tgnxxbfhfrmh5q9z.streamlit.app/  
-OR  
-streamlit run streamlit_app.py
+* Enter city name into input box and select 'Get Weather'.
+* View today's weather graphic for the requested city.
