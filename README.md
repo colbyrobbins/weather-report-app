@@ -17,10 +17,10 @@ git
 3. Install dependencies  
     pip install -r requirements.txt 
 4. Start Application  
+    https://weather-report-app-jihh68tgnxxbfhfrmh5q9z.streamlit.app/  
+    OR  
     streamlit run streamlit_app.py  
     Then open your browser at http://localhost:8501
-    OR  
-    https://weather-report-app-jihh68tgnxxbfhfrmh5q9z.streamlit.app/
 
 
 ### Usage
