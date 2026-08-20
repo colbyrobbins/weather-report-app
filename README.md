@@ -9,7 +9,7 @@ git
 
 ### Installation
 1. Clone and enter repository  
-    git clone https://github.com/colbyrobbins/weather-report-app.git
+    git clone https://github.com/colbyrobbins/weather-report-app.git  
     cd weather-report-app
 2. Create and activate venv  
     python -m venv .venv  
