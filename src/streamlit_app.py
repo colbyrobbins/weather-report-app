@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import streamlit as st
 
 load_dotenv()
-API_KEY = os.getenv("OPENWEATHER_API_KEY")
+API_KEY = st.secrets.get("OPENWEATHER_API_KEY") or os.getenv("OPENWEATHER_API_KEY")
 
 def get_weather(city):
     url = "https://api.openweathermap.org/data/2.5/weather"
