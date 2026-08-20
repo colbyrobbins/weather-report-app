@@ -16,12 +16,10 @@ git
     .venv\Scripts\activate.ps1
 3. Install dependencies  
     pip install -r requirements.txt 
-4. Start Application
+4. Start Application  
     streamlit run streamlit_app.py  
     Then open your browser at http://localhost:8501
-
     OR  
-
     https://weather-report-app-jihh68tgnxxbfhfrmh5q9z.streamlit.app/
 
 
