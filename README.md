@@ -4,7 +4,7 @@ Python CLI application that fetches real-time weather information for any city u
 ## Getting Started
 
 ### Prerequisites
-Python 3.10.0
+Python 3.10.0  
 git
 
 ### Installation
