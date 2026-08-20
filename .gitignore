@@ -3,3 +3,6 @@
 
 # .env File
 .env
+
+# Streamlit Secrets File
+.streamlit/secrets.toml
