@@ -20,4 +20,4 @@ git
     OPENWEATHER_API_KEY=your_api_key
 
 ### Usage
-streamlit run app.py
+streamlit run streamlit_app.py
